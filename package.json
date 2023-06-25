@@ -17,8 +17,10 @@
     "start": "cds run"
   },
   "cds": {
+    "hana": {"deploy-format": "hdbtable"
+  },
     "requires": {
-      "db": "sql"
+      "db": { "kind": "hana"}
     }
   }
 }
